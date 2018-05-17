@@ -4,8 +4,8 @@
     "url": "https://github.com/visualvm/visualvm.src/releases/download/1.4.1/visualvm_141.zip",
     "hash": "CB7D98B514C8448CFFAF0F453F2DD257CBCC3B84BF51E6D43145AE706FA726B8",
     "extract_dir": "visualvm_141",
-    "bin": [ [ "bin\\visualvm.exe", "visualvm", "--jdkhome", "%JAVA_HOME%" ] ],
+    "bin": [ [ "bin\\visualvm.exe", "visualvm", "--jdkhome", "$env:JAVA_HOME" ] ],
     "shortcuts": [
-        [ "bin\\visualvm.exe", "VisualVM", "--jdkhome %JAVA_HOME" ]
+        [ "bin\\visualvm.exe", "VisualVM", "--jdkhome %JAVA_HOME%" ]
     ]
 }
